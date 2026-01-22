@@ -1,0 +1,54 @@
+.header-buttons {
+  position: absolute;
+  right: 30px;
+  top: 5%;
+  transform: translateY(-50%);
+  display: flex;
+  gap: 10px;
+  background-color: transparent; /* space between Login and Toggle */
+}
+.header-button {
+  padding: 8px 16px;
+  cursor: pointer;
+  /* border-radius: 6px; */
+  font-weight: bold;
+  border: none;
+  background-color: #6a0dad;
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+mode-toggle {
+  background-color: transparent;
+  color: transparent;
+}
+body.dark-mode #mode-toggle {
+  background-color: transparent;
+  color: white;
+}
+.Login{
+  position: absolute;
+  place-items: center;
+  display: grid;
+  left: 60%;
+  top: 20%;
+  font;
+}
+.Login input {
+  margin-top: 30px;
+  margin-left: 20px;
+
+}
+.Login h4{
+  margin-left: -50px ;
+  margin-top: -10px;
+}
+.Login .pass{
+  margin-left: 60px;
+}
+
+.Login button{
+  padding: 6px 20px;
+  cursor: pointer;
+  margin-top:40px;
+
+}

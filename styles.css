@@ -1,0 +1,24 @@
+mode-toggle:hover {
+  background-color: rgba(106, 13, 173, 0.1);
+}
+
+/* Light mode */
+body.light-mode {
+  background-color: white;
+  color: black;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+body.dark-mode .header-button {
+  background-color: #8a2be2;
+  color: white;
+}
+
+body.dark-mode #mode-toggle {
+  color: #8a2be2;
+}
