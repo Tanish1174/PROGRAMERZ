@@ -1,3 +1,28 @@
+/* for banner */
+.header-container h1{
+  /* margin-top: 20px; */
+  margin: -8px;
+  background-color:burlywood;
+  padding-top: 25px;
+  padding-bottom: 53px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+video{
+  height:300px;
+  float: right;
+  margin-right:30px;
+
+}
+.header-container h1 center{
+  margin-top:30px;
+}
+h2{
+  font-size:40px
+}
+h4{
+  font-size: 20px;
+}
+
 .header-buttons {
   position: absolute;
   right: 30px;
@@ -28,10 +53,14 @@ body.dark-mode #mode-toggle {
 .Login{
   position: absolute;
   place-items: center;
-  display: grid;
-  left: 60%;
+  left: 72%;
   top: 20%;
-  font;
+  /* font; */
+  padding: 30px;
+  padding-right: 20px;
+  min-width: 320px;
+  backdrop-filter: blur(50px);
+  border-radius: 20px;
 }
 .Login input {
   margin-top: 30px;
@@ -39,11 +68,11 @@ body.dark-mode #mode-toggle {
 
 }
 .Login h4{
-  margin-left: -50px ;
   margin-top: -10px;
+  
 }
 .Login .pass{
-  margin-left: 60px;
+  margin-left: 0px;
 }
 
 .Login button{
@@ -51,4 +80,42 @@ body.dark-mode #mode-toggle {
   cursor: pointer;
   margin-top:40px;
 
+}
+.Login h3 {
+  margin-top: 20px;
+  font-size: 14px;
+  position: relative;
+  left: 20px;
+  top: 10px
+}
+input {
+  width: 250px;
+  height: 20px;
+}
+input {
+  padding: 8px 12px;
+}
+input {
+  width: 280px;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+/* For signup page */
+.Login .p{
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.Login .submit {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.Login .submit #header-button {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    
 }
