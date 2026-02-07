@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In - Programmerz</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="style1.css">
+
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<header class="site-header">
+  <a href="index.html" class="site-logo">&lt;/&gt;  PROGRAMMERZ</a>
+  <nav class="site-nav">
+    <a href="index.html">HOME</a>
+    <a href="signup.html"> SIGN UP</a>
+    <a href="signin.html"> SIGN IN</a>
+    <a href="aboutus.html">ABOUT US</a>
+  </nav>
+</header>
+
+
+<section class="auth-page">
+  <!-- Left Side -->
+  <div class="auth-left" data-aos="fade-right">
+    <h1>Welcome Back!</h1>
+    <p>Sign in to continue your programming journey with Programmerz. Explore tutorials, projects, and challenges designed to level up your skills.</p>
+
+    <ul class="auth-features">
+      <li>🚀 Accelerate Your Learning</li>
+      <li>💻 Hands-On Coding Projects</li>
+      <li>📚 Structured Tutorials & Guides</li>
+      <li>🎯 Build Real Skills Fast</li>
+    </ul>
+  </div>
+
+  <!-- Right Side -->
+  <div class="auth-right" data-aos="fade-left">
+    <div class="auth-container">
+      <h2>Sign In</h2>
+      <form id="signin-form">
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter your password" required>
+
+        <button type="submit">Sign In</button>
+      </form>
+      <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- JS -->
+<script src="script1.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({ duration: 1000, once: true, easing: 'ease-in-out' });
+</script>
+</body>
+</html>

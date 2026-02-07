@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #0b1220, #020617);
+  color: #e5e7eb;
+  line-height: 1.6;
+}
+.window-bar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.red {
+  background: #ff5f56;
+}
+
+.yellow {
+  background: #ffbd2e;
+}
+
+.green {
+  background: #27c93f;
+}
+
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10%;
+  align-items: center;
+}
+
+.navbar a {
+  color: #9ca3af;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.navbar a.active,
+.navbar a:hover {
+  color: #38bdf8;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 100px 10%;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.hero span {
+  color: #38bdf8;
+}
+
+.stats {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.stat {
+  background: #0b1220;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+/* STORY */
+.story {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px 10%;
+  gap: 40px;
+}
+
+.code-box {
+  background: #020617;
+  border: 1px solid #1f2933;
+  padding: 20px;
+  border-radius: 12px;
+  color: #38bdf8;
+}
+
+/* OFFER & VALUES */
+.offer, .values {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.card {
+  background: #0b1220;
+  padding: 30px;
+  border-radius: 14px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 25px rgba(56,189,248,0.2);
+}
+
+.card i {
+  color: #38bdf8;
+  margin-bottom: 15px;
+}
+
+.small {
+  padding: 25px;
+}
+
+/* MISSION */
+.mission {
+  margin: 80px 10%;
+  background: linear-gradient(135deg, #0b1220, #020617);
+  text-align: center;
+  padding: 60px;
+  border-radius: 20px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #6b7280;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .story {
+    grid-template-columns: 1fr;
+  }
+}
